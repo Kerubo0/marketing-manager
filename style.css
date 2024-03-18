@@ -147,6 +147,12 @@ nav {
         font-weight: 500;
     }
    
+    h3{
+        font-size: 24px;
+        display: flex;
+        text-align: center;
+    }
+
     button{
      font-size: 24px;
      font-weight: 500;
@@ -182,16 +188,16 @@ nav {
         align-items: center;
     }
 
-     
     .block-text{
-        text-align: center;
-    margin: 10px  auto;
-    /*max-width: 75%;*/
-    max-width: 32ch;
+        margin: 20px;
+        max-width: 45%;
+    }
+    
+    .image-w-icons{
+        width: 400px;
+        height: 400px;
     }
 
-
-    
 .card-container {
     padding-top: 250px;
     margin-top: 30px;
@@ -204,14 +210,14 @@ nav {
     background-color: #4d4949;
     max-width: 800px;
     z-index: 0;
-    padding: 0 36px 20px 36px;
+    padding: 30px 36px 20px 36px;
     border-radius: 16px;
 }
 
 .card-container .image-icons {
     z-index: 10;
     position: absolute;
-    top: -280px;
+    top: -350px;
 }
 
 .oscar {
