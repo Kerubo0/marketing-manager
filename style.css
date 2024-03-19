@@ -66,7 +66,7 @@ nav {
   .nav-links a {
     color: white;
     text-decoration: none;
-    font-size: 26px;
+    font-size: 18px;
     font-weight: 600;
   }
 
@@ -132,25 +132,38 @@ nav {
    
     p{
      font-weight: 500;
-     font-size: 32px;
+     font-size: 30px;
     }
 
     .hero-text {
         text-align: center;
         margin: 10px auto;
-        max-width: 70%;
+        max-width: 60%;
         /*max-width: 32ch;*/
       }
 
+      @media (max-width: 1200px){
+        .hero-text{
+          max-width: 70%;
+        }
+      }
+
     h1{
-        font-size: 42px;
+        font-size: 34px;
         font-weight: 500;
+    }
+
+    h2{
+      font-size: 34px;
+      font-weight: 600;
     }
    
     h3{
         font-size: 24px;
         display: flex;
         text-align: center;
+        margin-top: 80px;
+        margin-bottom: 40px;
     }
 
     button{
@@ -231,7 +244,7 @@ nav {
 }
 
 .hero-block-img-one{
-  flex: 1; 
+  flex: 1 ; 
   display: flex;
   justify-content: center;
   align-items: center; 
@@ -327,8 +340,8 @@ nav {
 }
     
     .image-w-icons{
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
     }
 
 .card-container {
@@ -350,7 +363,7 @@ nav {
 .card-container .image-icons {
     z-index: 10;
     position: absolute;
-    top: -350px;
+    top: -250px;
 }
 
 .oscar {
@@ -469,3 +482,147 @@ footer {
     }
   }
   
+  .hero-block-one > * {
+    flex: 1 1 80%; 
+    max-width: 45%;
+    }
+
+  .hero-block-two > * {
+    flex: 1 1 75%; 
+    max-width: 45%;
+    }
+
+  .hero-block-three > * {
+    flex: 1 1 75%; 
+    max-width: 45%;
+    }
+
+  .content-one > * {
+    flex: 1 1 75%; 
+    max-width: 45%;
+    }
+  .content-two > * {
+    flex: 1 1 75%; 
+    max-width: 45%;
+    }  
+  .content-three > * {
+    flex: 1 1 75%; 
+    max-width: 45%;
+    }      
+  /* Styling for responsiveness*/
+  /*@media (max-width:900px){
+.block-text{
+  max-width: 100%;
+}
+  }*/
+
+  @media (max-width: 768px){
+    .hero-text {
+      max-width: 85%;
+       }
+       .image-one{
+        width: 400px;
+        height: 400px;
+       }
+ 
+       .content-three{
+        display: flex;
+        justify-content: center;
+        align-items: center; /* This aligns the children vertically in the center */
+        flex-direction: row-reverse; /* Reverses the order of flex items (because of the "reversed" class) */
+        flex-wrap: wrap;
+        padding: 20px; /* Adds some padding around the content */
+       }
+
+       .content-two{
+        display: flex;
+        justify-content: center;
+        align-items: center; /* This aligns the children vertically in the center */
+        flex-wrap: wrap;
+        padding: 20px; /* Adds some padding around the content */
+       }
+
+       .content-one{
+        display: flex;
+        justify-content: center;
+        align-items: center; /* This aligns the children vertically in the center */
+        flex-direction: row-reverse; /* Reverses the order of flex items (because of the "reversed" class) */
+        flex-wrap: wrap;
+        padding: 20px; /* Adds some padding around the content */
+       }
+
+       .hero-block-three{
+        display: flex;
+        justify-content: center;
+        align-items: center; /* This aligns the children vertically in the center */
+        flex-wrap: wrap;
+        padding: 20px; /* Adds some padding around the content */
+       }
+     
+       .hero-block-two{
+        display: flex;
+        justify-content: center;
+        align-items: center; /* This aligns the children vertically in the center */
+        flex-direction: row-reverse; /* Reverses the order of flex items (because of the "reversed" class) */
+        flex-wrap: wrap;
+        padding: 20px; /* Adds some padding around the content */
+       }
+
+       
+       .hero-block-one{
+        display: flex;
+        justify-content: center;
+        align-items: center; /* This aligns the children vertically in the center */
+        flex-wrap: wrap;
+        padding: 20px; /* Adds some padding around the content */
+       }
+
+       .image-one{
+        width: 250px;
+        height: 250px;
+       }
+
+
+      
+  .hero-block-one > * {
+    flex: 1 1 80%; 
+    max-width: 85%;
+    }
+
+  .hero-block-two > * {
+    flex: 1 1 75%; 
+    max-width: 85%;
+    }
+
+  .hero-block-three > * {
+    flex: 1 1 75%; 
+    max-width: 85%;
+    }
+
+  .content-one > * {
+    flex: 1 1 75%; 
+    max-width: 85%;
+    }
+  .content-two > * {
+    flex: 1 1 75%; 
+    max-width: 85%;
+    } 
+    .content-three > *{
+      flex: 1 1 75%;
+      max-width: 85%;
+    }
+    .block-text{
+      padding: 0px;
+    }
+    h2{
+      font-size: 26px;
+      font-weight: 600;
+    }
+
+    p{
+      font-weight: 500;
+      font-size: 24px;
+     }
+   
+  }
+
