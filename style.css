@@ -192,6 +192,139 @@ nav {
         margin: 20px;
         max-width: 45%;
     }
+
+    /* Ensures that the parent container is a flex container */
+.content-three {
+  display: flex;
+  justify-content: space-between; /* This will space out the children evenly */
+  align-items: center; /* This aligns the children vertically in the center */
+  flex-direction: row-reverse; /* Reverses the order of flex items (because of the "reversed" class) */
+  padding: 20px; /* Adds some padding around the content */
+}
+
+/* Styling for the text block */
+.block-text {
+  flex: 1; /* Allows the text block to grow and take up equal space */
+  padding: 0 20px; /* Adds some padding for spacing */
+}
+
+/* Styling for the image container */
+.content-img-three {
+  flex: 1; /* Allows the image container to grow and take up equal space */
+  display: flex;
+  justify-content: center; /* Centers the image horizontally */
+  align-items: center; /* Centers the image vertically */
+  padding: 0 20px; /* Adds some padding for spacing */
+}
+
+/* Additional styling for the image to ensure it's responsive and doesn't overflow its container */
+.image-seven {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-block-one{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px;
+}
+
+.hero-block-img-one{
+  flex: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 0 20px; 
+}
+
+.image-two{
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-block-two{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  flex-direction: row-reverse; 
+  padding: 20px; 
+}
+
+.hero-block-img-two{
+  flex: 1; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding: 0 20px; 
+}
+
+.image-three{
+  max-width: 100%;
+  height: auto
+}
+
+.hero-block-three{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px;
+}
+
+.hero-block-img-three{
+  flex: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 0 20px; 
+}
+
+.image-four{
+  max-width: 100%;
+  height: auto;
+}
+
+.content-one{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  flex-direction: row-reverse; 
+  padding: 20px; 
+}
+
+.content-image-one{
+  flex: 1; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding: 0 20px; 
+}
+
+.image-five{
+  max-width: 100%;
+  height: auto
+}
+
+
+.content-two{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px;
+}
+
+.content-img-two{
+  flex: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 0 20px; 
+}
+
+.image-six{
+  max-width: 100%;
+  height: auto;
+}
     
     .image-w-icons{
         width: 400px;
