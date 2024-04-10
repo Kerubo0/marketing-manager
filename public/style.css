@@ -212,20 +212,27 @@ ul li:hover ul.dropdown{
 p{
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.7em;
  }
 
     .hero-text {
         text-align: center;
         margin: 10px auto;
-        max-width: 60%;
-        /*max-width: 32ch;*/
+        max-width: 800px;
       }
 
-      @media (max-width: 1200px){
-        .hero-text{
-          max-width: 70%;
-        }
+      .hero-text-1 {
+        text-align: center;
+        margin: 10px auto;
+        max-width: 1200px;
       }
+
+      .hero-text-2 {
+        text-align: center;
+        margin: 10px auto;
+        max-width: 1200px;
+      }
+
 
     h1{
         font-size: 30px;
@@ -233,7 +240,7 @@ p{
     }
 
     h2{
-      font-size: 22px;
+      font-size: 26px;
       font-weight: 600;
     }
    
@@ -315,6 +322,11 @@ p{
 .image-seven {
   max-width: 100%;
   height: auto;
+}
+@media (max-width: 330px){
+  .image-seven{
+    max-width: 270px;
+  }
 }
 
 .hero-block-one{
@@ -419,11 +431,11 @@ p{
   max-width: 100%;
   height: auto;
 }
-    
-    .image-w-icons{
-        width: 350px;
-        height: 350px;
-    }
+@media (max-width: 330px){
+  .image-six{
+    max-width: 270px;
+  }
+}
 
 .card-container {
     padding-top: 250px;
@@ -480,9 +492,10 @@ p{
     padding-bottom: 20px;
 }
   
-.final-btns {
+/*.final-btns {
 width: 100%;
-}
+}*/
+
 
 @media (max-width: 768px){
   .final-btns{
@@ -490,9 +503,15 @@ width: 100%;
   }
 
 }
+
+#btn-5{
+  margin: 0px;
+  max-width: 150px;
+  font-size: 15px;
+}
   
 .rounded-btn-holder {
-    margin-left: auto; 
+    margin-right: 10px; 
 }
 
 .secondary.rounded {
